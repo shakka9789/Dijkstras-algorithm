@@ -1,0 +1,30 @@
+Source Node = 1
+The path from 1 to 1: 1 <- 1 cost:0
+The path from 1 to 2: 2 <- 1 cost:10
+The path from 1 to 3: 3 <- 4 <- 1 cost:50
+The path from 1 to 4: 4 <- 1 cost:30
+The path from 1 to 5: 5 <- 3 <- 4 <- 1 cost:60
+Source Node = 2
+The path from 2 to 1: 1 <- 5 <- 3 <- 2 cost:100
+The path from 2 to 2: 2 <- 2 cost:0
+The path from 2 to 3: 3 <- 2 cost:50
+The path from 2 to 4: 4 <- 1 <- 5 <- 3 <- 2 cost:130
+The path from 2 to 5: 5 <- 3 <- 2 cost:60
+Source Node = 3
+The path from 3 to 1: 1 <- 5 <- 3 cost:50
+The path from 3 to 2: 2 <- 1 <- 5 <- 3 cost:60
+The path from 3 to 3: 3 <- 3 cost:0
+The path from 3 to 4: 4 <- 1 <- 5 <- 3 cost:80
+The path from 3 to 5: 5 <- 3 cost:10
+Source Node = 4
+The path from 4 to 1: 1 <- 5 <- 3 <- 4 cost:70
+The path from 4 to 2: 2 <- 1 <- 5 <- 3 <- 4 cost:80
+The path from 4 to 3: 3 <- 4 cost:20
+The path from 4 to 4: 4 <- 4 cost:0
+The path from 4 to 5: 5 <- 3 <- 4 cost:30
+Source Node = 5
+The path from 5 to 1: 1 <- 5 cost:40
+The path from 5 to 2: 2 <- 1 <- 5 cost:50
+The path from 5 to 3: 3 <- 4 <- 1 <- 5 cost:90
+The path from 5 to 4: 4 <- 1 <- 5 cost:70
+The path from 5 to 5: 5 <- 5 cost:0
